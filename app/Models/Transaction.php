@@ -15,7 +15,7 @@ class Transaction extends Model
     
     public function food()
     {
-        return $this->hasOne(Food::class, 'id', 'food_id');
+        return $this->hasOne(Food::class, 'id', 'food_id'); 
     }
     public function user()
     {
